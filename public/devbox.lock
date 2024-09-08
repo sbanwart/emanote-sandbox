@@ -1,0 +1,203 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "emanote@latest": {
+      "last_modified": "2024-08-04T00:20:25Z",
+      "resolved": "github:NixOS/nixpkgs/f3834de3782b82bfc666abf664f946d0e7d1f116#emanote",
+      "source": "devbox-search",
+      "version": "1.2.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/inhi89sadwisl4qsfm9rygp2wlj6dnq3-emanote-1.2.0.0",
+              "default": true
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/lrvq90c7km8k6m35iwkbwzzzp65y6chc-emanote-1.2.0.0-data"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/05cslbk9i5bbw88bv24zr4x93qnrkjac-emanote-1.2.0.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/inhi89sadwisl4qsfm9rygp2wlj6dnq3-emanote-1.2.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2flfvxp7a0gh9zv3z5picwwx2sgk691a-emanote-1.2.0.0",
+              "default": true
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/m77n5v2w1xp9k0fa1sqwcx77fzc3ids0-emanote-1.2.0.0-data"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/2ajy7gf1pgbhcbv1p77p2r04ssm1fx6d-emanote-1.2.0.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/2flfvxp7a0gh9zv3z5picwwx2sgk691a-emanote-1.2.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rxrq5fm9vqsh1v4v5j19sn1s6wpjcqkd-emanote-1.2.0.0",
+              "default": true
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/9igpr5zq77rjv2vhfhs62y3hjc9bdcbc-emanote-1.2.0.0-data"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/9lk050m4dws2if8hzgl66zaar6v5mq0l-emanote-1.2.0.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/rxrq5fm9vqsh1v4v5j19sn1s6wpjcqkd-emanote-1.2.0.0"
+        }
+      }
+    },
+    "sqlite@latest": {
+      "last_modified": "2024-08-18T12:44:29Z",
+      "resolved": "github:NixOS/nixpkgs/ff1c2669bbb4d0dd9e62cc94f0968cfa652ceec1#sqlite",
+      "source": "devbox-search",
+      "version": "3.46.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/x9l1l9kd319hg80i54y3cxn32rrzhilz-sqlite-3.46.0-bin",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/khx2r5a5hwjfvn7n9f9p8smcaaxdirv1-sqlite-3.46.0-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/ab934rv6w39hha3q6km0f9l4qca32fkj-sqlite-3.46.0"
+            }
+          ],
+          "store_path": "/nix/store/x9l1l9kd319hg80i54y3cxn32rrzhilz-sqlite-3.46.0-bin"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/s3pjh20w4pdwq36vyskzmydzynyqhlz4-sqlite-3.46.0-bin",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/w49ixxrgkwwjaadcf8nlk01r4ngnall0-sqlite-3.46.0-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/xfjqvpddq5wk9s1337nmavm6ilsr563p-sqlite-3.46.0-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/zz17pkcabaqc8v11jn8x3x9jhxqilzz1-sqlite-3.46.0"
+            }
+          ],
+          "store_path": "/nix/store/s3pjh20w4pdwq36vyskzmydzynyqhlz4-sqlite-3.46.0-bin"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/gms9fw05wx18g3dvf1x226xs9amhzdlm-sqlite-3.46.0-bin",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/m1amn8pjdr1gx7alw8vh5a8r2nh42ilc-sqlite-3.46.0-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/05ms62f7nw3id4i900iyaa0fcrc4hkx4-sqlite-3.46.0"
+            }
+          ],
+          "store_path": "/nix/store/gms9fw05wx18g3dvf1x226xs9amhzdlm-sqlite-3.46.0-bin"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/jmd9xi0qy1jdcllbcjq3cdi0rqnp2v7c-sqlite-3.46.0-bin",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/k4y3071kjmpxlkmbwlq88wq4xkfk3xv3-sqlite-3.46.0-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/pmbv63crfrpqawazlw5q2mgbz9v4kn86-sqlite-3.46.0-dev"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/2qvi978srnw5fikn0cmhk65w4vk2c2kc-sqlite-3.46.0"
+            }
+          ],
+          "store_path": "/nix/store/jmd9xi0qy1jdcllbcjq3cdi0rqnp2v7c-sqlite-3.46.0-bin"
+        }
+      }
+    },
+    "zk@latest": {
+      "last_modified": "2024-07-31T08:48:38Z",
+      "resolved": "github:NixOS/nixpkgs/c3392ad349a5227f4a3464dce87bcc5046692fce#zk",
+      "source": "devbox-search",
+      "version": "0.14.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zxqici6yss7gdfdihyaxk5ippnqrz9x0-zk-0.14.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zxqici6yss7gdfdihyaxk5ippnqrz9x0-zk-0.14.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1y9xnki1x9kqzpiywd8d510j1v3xgw78-zk-0.14.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1y9xnki1x9kqzpiywd8d510j1v3xgw78-zk-0.14.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/07i17q3vbzffi17zx7v4x717b8dgs0dy-zk-0.14.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/07i17q3vbzffi17zx7v4x717b8dgs0dy-zk-0.14.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n0vsyz1wbmc64jvllgm8gmzsn4wcqy80-zk-0.14.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n0vsyz1wbmc64jvllgm8gmzsn4wcqy80-zk-0.14.1"
+        }
+      }
+    }
+  }
+}
